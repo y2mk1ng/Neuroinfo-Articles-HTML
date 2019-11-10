@@ -1,0 +1,65 @@
+﻿<h1 id="關於假新聞，這些事你一定要知道！">關於假新聞，這些事你一定要知道！</h1>
+
+<p>
+	<blockquote>
+		<i>
+			你站在一間沒有窗戶且隔音效果甚佳的房子裡。一個人走了進來，說外頭下著大雨。很快另一個人進來說外面是大晴天。請問你會相信誰？
+		</i>
+	</blockquote>
+</p>
+<p>
+	<strong>假新聞</strong>，一個紅極一時的政治話題，目前已經充斥於各大社群媒體中。提到假新聞，大家想到的，不外乎是有人帶風向、最高罰 30 萬這些。但，你知道嗎？你的腦在你看到假新聞的時候並主觀認定它是假新聞的時候，與你一開始信以為真但後來發現是假的，會有不一樣的活動，那是什麼樣子呢？而科學家又要怎麼分辨一篇報導是不是假新聞呢？
+</p>
+
+<h2>
+	News-HSN 與 FAKEDETECTOR
+</h2>
+
+<p>
+	科學家建立了一個名為 News Augmented Heterogeneous Social Networks 的網絡，簡稱為 News-HSN。News-HSN 是一種可以以數種參數辨識新聞的網絡。在一篇<a href=https://arxiv.org/pdf/1805.08751.pdf?fbclid=IwAR0tTTStVjPbDhGio2KMdvoCodCFPf2vSxRzTvH2jL3-ygA0AVD5oybR8X8>研究</a>中，科學家以 News-HSN 建立的模型，透過文章作者、主題、內容用字遣詞和媒體出版歷史的可信度，量化並分為 true、mostly true、half true、mostly false、false 和 pants on fire 六個等級來做為評比，並以 Representation Feature Learning (RFL) 的方式使新聞的真假與各種變因有更強的關聯性。除此之外，也使用 Hybrid Feature Learning Unit (HFLU) （如下圖一）以取得每則新聞的特徵向量，並且加上深度擴散模型（Deep Diffusive Unit Model）和 GDU (Gate Diffusive Unit) ，開發出一套名為 FAKEDETECTOR 的框架，示意圖如下圖二。此框架可以配合網路上的使用者行為與 HTTP session information 來做 spam detection。
+</p>
+
+<p>圖一</p>
+
+<img src="https://imgur.com/ZFJ7o5J.png">
+
+<p>圖二</p>
+<img src="https://imgur.com/SKTtP2J.png">
+
+
+<h2>
+	看到假新聞的大腦
+</h2>
+
+<p>
+	那麼，當我們的大腦收到假新聞的時候，會發生什麼變化呢？
+</p>
+
+<p>
+	在一本名為 <a href=https://link.springer.com/book/10.1007/978-3-030-28144-1?fbclid=IwAR1xE8Ec5yj-rouIzexC4QOojDURSGTclYZkBWaXh782BxqojLlmHoBHDp4>Information Systems and Neuroscience</a> 的書中，有一篇研究，揭示了人們在接收假新聞時，會有一些特別的生理反應，而這些生理反應，會因為人們主觀認定自己接收到「假新聞」而引起。引起的生理反應，其行為特徵為比較頻繁的注視。在 <a href=https://neurosciencenews.com/fake-news-false-memory-14763>Neuroscience News 的這則報導</a>中，也說明研究顯示假新聞可能會讓人腦形成錯誤的記憶。其實，早在<a href=https://s3.amazonaws.com/academia.edu.documents/37416631/J_Neurophysiol_2007_Kroliczak.pdf?response-content-disposition=inline%3B%20filename%3DWhat_does_the_brain_do_when_you_fake_it.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20191109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191109T083336Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2f1aba6996da9711b9399f448c2445fd1558602833b76fb9ca626b256f46074e>這篇 2006 年的研究</a> 中，便已說明當人腦知道了某個接收的訊息為假的時候，fMRI 的影像就可能在 AIP、IPS 與 PCS 等腦區會有所變化。也就是說，當人們發現本來以為的真新聞是假的時候，特定腦區的活動也會受到影響。
+</p>
+
+<p>
+	撰文 | 郭彥伶
+</p>
+
+<h2>
+	資料來源
+</h2>
+<p>
+	(Journal articles)
+G.  Kro ́ liczak,  C.  Cavina-Pratesi,  D.  A.  Goodman,  and  J.  C.  Culham, What Does the Brain Do When You Fake It? An fMRI Study of Pantomimedand Real Grasping (2007). J Neurophysiol: 97: 2410–2422. 
+</p>
+<p>
+Jiawei Zhang, Bowen Dong, Philip S. Yu, FAKEDETECTOR: Effective Fake News Detectionwith Deep Diffusive Neural Network (2019). arXiv: 1805.08751v2 [cs.SI].
+</p>
+<p>
+(Books)
+Fred D. Davis, Rene Riedl, Jan vom Brocke, Pierre-Majorique Leger, Adriane Randolph, Thomas Fischer, Information Systems and Neuroscience (2019).Springer.
+</p>
+<p>
+(News)
+Neuroscience News: Fake news can lead to false memories (Aug. 21, 2019). https://neurosciencenews.com/fake-news-false-memory-14763/
+</p>
+
+<marquee> ※ 提醒您，看到新聞還是要求證，才不會被蒙蔽唷。 </marquee>
